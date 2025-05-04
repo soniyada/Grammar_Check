@@ -12,7 +12,7 @@ import io
 model = joblib.load('grammar_model.joblib')
 scaler = joblib.load('scaler.joblib')
 
-st.title("Welcome to the Grammar Scoring Engine 🧠✅ ")
+st.title("Welcome to the Grammar Scoring Engine  ")
 uploaded_file = st.file_uploader("Upload your audio file 🔊", type=['wav', 'mp3'])
 
 if uploaded_file:
